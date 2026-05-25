@@ -9,8 +9,7 @@ double Ellipse::calcArea() const
 
 double Ellipse::calcPerimeter() const
 {
-    // Приближение Рамануджана
-    return M_PI * (3*(a+b) - std::sqrt((3*a+b) * (a+3*b)));
+    return M_PI * (3 * (a + b) - std::sqrt((3 * a + b) * (a + 3 * b)));
 }
 
 std::string Ellipse::getName() const
